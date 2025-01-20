@@ -11,7 +11,7 @@ const inrToUsd = (inr) => {
   return inr / EXCHANGE_RATE;
 };
 
-const usdToInr = (usd) => 
+const usdToInr = (usd) => {
   return usd * EXCHANGE_RATE;
 };
 
